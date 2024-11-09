@@ -89,7 +89,7 @@
       </section>
 
       <section>
-        <h2>Belum selesai dibaca</h2>
+        <h2>Belum Selesai Dibaca</h2>
 
         <div 
           id="incompleteBookList" 
@@ -126,41 +126,18 @@
       </section>
 
       <section>
-        <h2>Selesai dibaca</h2>
+        <h2>Selesai Dibaca</h2>
 
-        <div 
-          id="completeBookList" 
-          data-testid="completeBookList">
-          <!-- 
-            Ini adalah struktur HTML untuk masing-masing buku.
-            Pastikan susunan elemen beserta atribut data-testid menyesuaikan seperti contoh ini.
-          -->
-          <div 
-            data-bookid="456456456" 
-            data-testid="bookItem">
-            <h3 
-              data-testid="bookItemTitle">Judul Buku 2
-            </h3>
-            <p 
-              data-testid="bookItemAuthor">Penulis: Penulis Buku 2
-            </p>
-            <p 
-              data-testid="bookItemYear">Tahun: 2030
-            </p>
-            <div>
-              <button
-                 data-testid="bookItemIsCompleteButton">Selesai dibaca
-                </button>
-              <button 
-                data-testid="bookItemDeleteButton">Hapus Buku
-              </button>
-              <button 
-                data-testid="bookItemEditButton">Edit Buku
-              </button>
+        <div id="completeBookList" data-testid="completeBookList">
+            <!-- Struktur HTML untuk masing-masing buku -->
+            <div class="book-item">
+                <button data-testid="bookItemIsCompleteButton">Selesai Dibaca</button>
+                <button data-testid="bookItemDeleteButton">Hapus Buku</button>
+                <button data-testid="bookItemEditButton">Edit Buku</button>
             </div>
-          </div>
+            <!-- Tambahkan lebih banyak item buku di sini -->
         </div>
-      </section>
-    </main>
-  </body>
+    </section>
+</main>
+</body>
 </html>
